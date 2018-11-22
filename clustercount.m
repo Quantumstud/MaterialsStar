@@ -5,7 +5,7 @@ ClusterQWSize=zeros(22,1);
 % ClusteroutQWSize=zeros(22,1);
 ClusterQWIntensity=zeros(22,1);
 % ClusteroutQWIntensity=zeros(22,1);
-for i=1:numsnip
+for i=1:num
     %if Centroid(i,2)>18 && Centroid(i,2)<56
         ClusterQW=ClusterQW+1;
         ClusterQWSize(ClusterQW,1)=output.rho(i,1);
