@@ -60,7 +60,7 @@ right=4;
 upstart=up;
 downend=m-down;
 leftstart=left;
-rightend=n-4;
+rightend=n-right;
 snippedresidual=error_gauss(upstart:downend,leftstart:rightend);
 clear -vars i
 snippedcentroid=zeros(1,2);
